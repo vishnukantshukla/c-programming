@@ -1,9 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
- int add(num1,num2);
-scanf("%d%d",&num1,&num2);
-
-printf("%d",num1,num2)
+int x;
+scanf("%d",&x);
+(x%4==0&&x%100==0)printf("x is leap year and century"):printf("y is not leap year and not century");
 return 0;
 }
