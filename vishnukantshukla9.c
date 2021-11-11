@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-int x,y ,divide,mod ;
-scanf("%d",&x);
-scanf("%d",&y);
-divide=x/y;
-mod=x%y;
-printf("%d%d",divide,mod);
+char c;
+scanf("%c",&c);
+if(c>='a'&&c<='z'||c>='A'&&c<='Z')
+printf("IT IS ALPHABET");
+else
+printf("IT I NOT ALPHABET");
 return 0;
 }

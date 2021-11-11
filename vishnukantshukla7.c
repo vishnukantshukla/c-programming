@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-int x,y ,sum;
+int x;
 scanf("%d",&x);
-scanf("%d",&y);
-sum=x+y;
-printf("%d",sum);
+if(x%5==0&&x%11==0)
+printf("it is divisible by 5 and 11");
+else
+printf("it is not divisible by 5 and 11");
 return 0;
 }
+

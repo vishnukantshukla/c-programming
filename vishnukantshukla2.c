@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main()
 {
-printf("Name -Vishnukant Shukla");
-printf("Address-Shahjahanpur");
-printf("contact number - 8957521161");
+int x;
+scanf("%d",&x);
+if(x%2==0)
+printf("numbere is even munber");
+else
+printf("number is  a odd number");
 return 0;
 }
