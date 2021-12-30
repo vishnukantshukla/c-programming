@@ -14,8 +14,12 @@ int main()
 		for(i=0;i<n;i++)
 	{
 		if(x[i]==a)
-		printf("The position of elements = %d\n",i+1);
+		
+		{
+		
 		flag=flag+1;	
+		printf("The position of elements = %d\n",i+1);
+	}
 	}
 	
 	if(flag==0)
