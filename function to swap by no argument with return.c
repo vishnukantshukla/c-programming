@@ -11,6 +11,6 @@ int swap (void)
 }
 int main()
 {
-	printf("%d%d",swap());
+	printf("%d",swap());
 	return 0;
 }
