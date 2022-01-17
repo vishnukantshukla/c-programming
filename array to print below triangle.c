@@ -13,22 +13,13 @@ int main()
 	}
 	for(i=0;i<=n-1;i++)
 	{
-		if(i%2==0)
-		{
-		
 		for(j=0;j<=n-1;j++)
 		{
-			
-				printf("%d\t",x[i][j]);
+			if(i==j||j>i)
+			printf("%d\t",x[i][j]);
 		}
-		
+		printf("\n");
 	}
-	else
-	for(j=n-1;j>=0;j--) 
-	{
-		printf("%d\t",x[i][j]);
-	}
-	printf("\n");
-}
+
 	return 0;
 }

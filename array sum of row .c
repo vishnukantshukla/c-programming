@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,i,j;
+	int n,i,j,sum = 0 ;
 	scanf("%d",&n);
 	int x[n][n];
 	for(i=0;i<=n-1;i++)
@@ -11,24 +11,17 @@ int main()
 			scanf("%d",&x[i][j]);
 		}
 	}
+	printf("Sum of rows = \n");
 	for(i=0;i<=n-1;i++)
 	{
-		if(i%2==0)
-		{
-		
 		for(j=0;j<=n-1;j++)
-		{
-			
-				printf("%d\t",x[i][j]);
-		}
+	{
+		sum = sum + x[i][j];
 		
 	}
-	else
-	for(j=n-1;j>=0;j--) 
-	{
-		printf("%d\t",x[i][j]);
+	printf("%d\n",sum);
+	sum =0;
 	}
-	printf("\n");
-}
+
 	return 0;
 }
